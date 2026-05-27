@@ -169,28 +169,8 @@ body > h3, .about {
     border-radius: 5px;
 }
 
-footer {
-    width: 100%;
-    box-sizing: border-box;
-    margin-top: 2rem;
-
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    border-top: 1px solid rgba(255, 255, 255, 0.35);
-}
-
-.footer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 1rem;
-    width: 80vw;
-    margin: 0 auto;
-    text-align: center;
-}
-
 .contacts {
+    border: none;
     margin-top: 0;
     display: flex;
     flex-wrap: wrap;
@@ -200,6 +180,37 @@ footer {
     width: 100%;
 }
 
+.name-contacts {
+    width: 80vw;
+    margin: 1rem auto 2rem;
+}
+
+.contact.skill {
+    border-color: transparent;
+    width: auto;
+    max-width: none;
+    padding: 0;
+}
+
 .contact > a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     text-decoration: none;
+}
+
+.name-contacts .contact img {
+    width: 32px;
+    height: 32px;
+    display: block;
+}
+
+.bongo-cat {
+    position: fixed;
+    right: 10px;
+    bottom: 5px;
+    width: 100px;
+    height: auto;
+    z-index: 10;
+    pointer-events: none;
 }
