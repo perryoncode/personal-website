@@ -206,9 +206,10 @@ body > h3, .about {
 }
 
 .bongo-cat {
-    position: fixed;
-    right: 10px;
-    bottom: 5px;
+    position: absolute;
+    /* right: 10px; */
+    left:65%;
+    top: 25px;
     width: 100px;
     height: auto;
     z-index: 10;
